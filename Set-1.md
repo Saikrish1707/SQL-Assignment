@@ -1,42 +1,43 @@
 1 : ```SELECT * FROM CITY WHERE COUNTRYCODE  = 'USA' AND POPULATION > 100000;```
 
-2: ``` ```
+2: ```SELECT NAME FROM CITY WHERE COUNTRYCODE="USA" AND POPULATION > 120000;```
 
-2: ``` ```
+3: ```SELECT * FROM CITY;```
 
-2: ``` ```
+4: ```SELECT * FROM CITY WHERE ID =1661;```
 
-2: ``` ```
+5: ```SELECT * FROM CITY WHERE COUNTRYCODE = "JPN";```
 
-2: ``` ```
+6: ```SELECT NAME FROM CITY WHERE COUNTRYCODE="JPN";```
 
-2: ``` ```
+7: ```SELECT CITY, STATE FROM STATION;```
 
-2: ``` ```
+8: ```SELECT DISTINCT CITY FROM STATIONWHERE MOD(ID,2)=0;```
 
-2: ``` ```
+9: ```SELECT COUNT(CITY) - COUNT(DISTINCT CITY) FROM STATION;```
 
-2: ``` ```
+10: ```select CITY,LENGTH(CITY) from STATION order by LENGTH(CITY),CITY ASC LIMIT 1;
+       select CITY,LENGTH(CITY) from STATION order by LENGTH(CITY) DESC, CITY LIMIT 1;```
 
-2: ``` ```
+11: ``` ```
 
-2: ``` ```
+12: ``` ```
 
-2: ``` ```
+13: ``` ```
 
-2: ``` ```
+14: ``` ```
 
-2: ``` ```
+15: ``` ```
 
-2: ``` ```
+16: ``` ```
 
-2: ``` ```
+17: ``` ```
 
-2: ``` ```
+18: ``` ```
 
-2: ``` ```
+19: ``` ```
 
-2: ``` ```
+20: ``` ```
 
 2: ``` ```
 
